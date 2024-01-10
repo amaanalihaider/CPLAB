@@ -23,7 +23,7 @@ void printVector(vector<int>& v, int size) {
 
 }
 
-bool is_Palindrome(const std::string& user_string) {
+bool is_Palindrome(const string& user_string) {
 	int i = 0;
 	int size = user_string.length() - 1;
 
@@ -127,10 +127,10 @@ int main() {
 	getline(cin, input);
 
 	if (is_Palindrome(input)) {
-		cout << "The entered string is a palindrome." << std::endl;
+		cout << "The entered string is a palindrome." << endl;
 	}
 	else {
-		cout << "The entered string is not a palindrome." << std::endl;
+		cout << "The entered string is not a palindrome." << endl;
 	}
 
 	cout << endl;
